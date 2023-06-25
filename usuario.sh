@@ -4,9 +4,9 @@
 directorio_actual=$(dirname "$(readlink -f "$0")")
 
 # Generar la contraseña
-contraseña="password123"
+password="password123"
 
 # Crear el archivo usuario.txt en el directorio actual
-echo "$contraseña" > "$directorio_actual/usuario.txt"
+echo "$pasword" > "$directorio_actual/usuario.txt"
 
-echo "Archivo usuario.txt creado con la contraseña: $contraseña"
+echo "Archivo usuario.txt creado con la contraseña: $password"
